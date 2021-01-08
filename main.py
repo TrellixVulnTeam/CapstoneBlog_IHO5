@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_all_posts():
-    print("macchecazzooo!")
+    print("prova git!")
     return render_template("index.html", all_posts=posts)
 
 
